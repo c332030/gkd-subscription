@@ -8,7 +8,7 @@ export default defineGkdApp({
       key: 0,
       name: '视频满意度反馈',
       rules: { matches: '[vid="survey_close"]' },
-      snapshotUrls: ['https://i.gkd.li/snapshot/1717037405839'],
+      snapshotUrls: ['https://i.gkd.li/i/1717037405839']
     }
   ]
 });
