@@ -19,6 +19,6 @@ jobs:
       HOST: ${{ secrets.HOST }}
       PORT: ${{ secrets.PORT }}
     with:
-      build-command: npx --yes pnpm install && npx --yes pnpm run build
+      build-command: pnpm install && pnpm run build
       origin-path: dist
       remote-path: /home/program/nginx/html/gkd
