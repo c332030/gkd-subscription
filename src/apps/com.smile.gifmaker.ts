@@ -11,7 +11,7 @@ export default defineGkdApp({
       snapshotUrls: ['https://i.gkd.li/i/1717037405839'],
     },
     {
-      key: 0,
+      key: 1,
       name: '直接退出直播间',
       rules: [
         {
