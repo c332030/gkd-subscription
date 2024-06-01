@@ -11,7 +11,17 @@ export default defineGkdApp({
         matches:
           '[id="com.ss.android.ugc.aweme:id/n_="] View[childCount > 2] View[childCount = 1] + View',
       },
-      snapshotUrls: ['https://i.gkd.li/i/1717136825621'],
+    },
+    {
+      key: 1,
+      name: '视频描述广告',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
+          matches: '[id="com.ss.android.ugc.aweme:id/close"]',
+        },
+      ],
     },
   ],
 });
