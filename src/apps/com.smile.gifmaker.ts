@@ -10,5 +10,17 @@ export default defineGkdApp({
       rules: { matches: '[vid="survey_close"]' },
       snapshotUrls: ['https://i.gkd.li/i/1717037405839'],
     },
+    {
+      key: 0,
+      name: '直接退出直播间',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.yxcorp.gifshow.detail.PhotoDetailActivity',
+          matches:
+            '[id="com.smile.gifmaker:id/krn_content_container"] TextView[text="退出直播间"]',
+        },
+      ],
+    },
   ],
 });
