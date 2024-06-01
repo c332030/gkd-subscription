@@ -17,12 +17,22 @@ export default defineGkdApp({
     },
     {
       key: 1,
-      name: '通知',
+      name: '首页-推荐开启通知',
       rules: [
         {
           quickFind: true,
           activityIds: 'com.taou.maimai.MainActivity',
           matches: 'ImageView[id="com.taou.maimai:id/close_btn"]',
+        },
+      ],
+    },
+    {
+      key: 3,
+      name: '消息页-推荐开启通知',
+      rules: [
+        {
+          activityIds: 'com.taou.maimai.MainActivity',
+          matches: 'ImageView[desc="关闭"][clickable=true]',
         },
       ],
     },
