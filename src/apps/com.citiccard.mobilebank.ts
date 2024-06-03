@@ -10,8 +10,6 @@ export default defineGkdApp({
       rules: [
         {
           quickFind: true,
-          activityIds:
-            'com.citiccard.mobilebank.card.activity.BillDetailHomeActivity',
           matches: '[id="com.citiccard.mobilebank:id/iv_close"]',
           snapshotUrls: 'https://i.gkd.li/i/15531169',
         },
