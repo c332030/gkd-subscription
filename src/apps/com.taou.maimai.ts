@@ -36,5 +36,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 4,
+      name: '多次浏览关注提醒',
+      rules: [
+        {
+          activityIds: 'com.taou.maimai.react.ReactActivity',
+          matches: 'TextView[text^="今天浏览了"] + ViewGroup > ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/15531112',
+        },
+      ],
+    },
   ],
 });

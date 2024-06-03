@@ -27,5 +27,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '小说-列表上方广告',
+      rules: [
+        {
+          activityIds: 'com.ucpro.BrowserActivity',
+          matches: '[id="com.quark.browser:id/ad_container"] + ImageView',
+          snapshotUrls: 'https://i.gkd.li/i/15531466',
+        },
+      ],
+    },
   ],
 });

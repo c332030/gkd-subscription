@@ -23,5 +23,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '直播满意度调查',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
+          matches: 'LynxFlattenUI[text^="满意"] - LynxFlattenUI[text="关闭"]',
+          snapshotUrls: 'https://i.gkd.li/i/15531325',
+        },
+      ],
+    },
   ],
 });
