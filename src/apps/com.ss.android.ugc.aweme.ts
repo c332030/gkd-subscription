@@ -35,5 +35,41 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 3,
+      name: '视频推荐-取消',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
+          matches: '[id="com.ss.android.ugc.aweme:id/bpg"]',
+          snapshotUrls: 'https://i.gkd.li/i/15532712',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: '博主主页视频浏览-不关注',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.detail.ui.DetailActivity',
+          matches: '[id="com.ss.android.ugc.aweme:id/bov"]',
+          snapshotUrls: 'https://i.gkd.li/i/15532724',
+        },
+      ],
+    },
+    {
+      key: 5,
+      name: '评论-显示折叠的评论',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.detail.ui.DetailActivity',
+          matches: '[id="com.ss.android.ugc.aweme:id/huc"]',
+          snapshotUrls: 'https://i.gkd.li/i/15532730',
+        },
+      ],
+    },
   ],
 });
