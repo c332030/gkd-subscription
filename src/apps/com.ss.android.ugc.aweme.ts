@@ -66,7 +66,7 @@ export default defineGkdApp({
         {
           quickFind: true,
           activityIds: 'com.ss.android.ugc.aweme.detail.ui.DetailActivity',
-          matches: '[id="com.ss.android.ugc.aweme:id/huc"]',
+          matches: '[id="com.ss.android.ugc.aweme:id/huc"][text="展开"]',
           snapshotUrls: 'https://i.gkd.li/i/15532730',
         },
       ],
