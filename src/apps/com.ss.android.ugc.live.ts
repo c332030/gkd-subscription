@@ -11,7 +11,33 @@ export default defineGkdApp({
         {
           quickFind: true,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
-          matches: 'Button[id="com.ss.android.ugc.live:id/knt"]',
+          matches: '[id="com.ss.android.ugc.live:id/km6"]',
+        },
+      ],
+    },
+    {
+      key: 1,
+      name: '通讯录-权限推荐',
+      rules: [
+        {
+          quickFind: true,
+          activityIds:
+            'com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity',
+          matches: '[id="com.ss.android.ugc.live:id/iv_close"]',
+          snapshotUrls: 'https://i.gkd.li/i/15723903',
+        },
+      ],
+    },
+    {
+      key: 2,
+      name: '通讯录-权限推荐-二次确认',
+      rules: [
+        {
+          quickFind: true,
+          activityIds:
+            'com.ss.android.ugc.aweme.bullet.ui.BulletContainerActivity',
+          matches: '[id="com.ss.android.ugc.live:id/d6"]',
+          snapshotUrls: 'https://i.gkd.li/i/15724068',
         },
       ],
     },

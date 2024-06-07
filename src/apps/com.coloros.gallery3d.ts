@@ -15,5 +15,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 1,
+      name: '随身卡包-开启',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.coloros.gallery3d.app.MainActivity',
+          matches: '[id="com.coloros.gallery3d:id/tv_banner_negative"]',
+        },
+      ],
+    },
   ],
 });

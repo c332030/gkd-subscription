@@ -47,5 +47,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 5,
+      name: '定制职位推荐',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.taou.maimai.activity.WebViewActivity',
+          matches: '[id="com.taou.maimai:id/menu_bar_back_icon"]',
+        },
+      ],
+    },
   ],
 });

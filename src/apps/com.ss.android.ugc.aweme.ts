@@ -7,10 +7,14 @@ export default defineGkdApp({
     {
       key: 0,
       name: '直播游戏推荐',
-      rules: {
-        matches:
-          '[id="com.ss.android.ugc.aweme:id/oa5"] View[childCount > 2] View[childCount = 1] + View',
-      },
+      rules: [
+        {
+          activityIds: 'com.ss.android.ugc.aweme.live.LivePlayActivity',
+          matches:
+            '[id="com.ss.android.ugc.aweme:id/oa5"] View[childCount>2] View[childCount=1] + View',
+          snapshotUrls: 'https://i.gkd.li/i/15722431',
+        },
+      ],
     },
     {
       key: 1,
@@ -68,6 +72,42 @@ export default defineGkdApp({
           activityIds: 'com.ss.android.ugc.aweme.detail.ui.DetailActivity',
           matches: '[id="com.ss.android.ugc.aweme:id/huc"][text="展开"]',
           snapshotUrls: 'https://i.gkd.li/i/15532730',
+        },
+      ],
+    },
+    {
+      key: 6,
+      name: '直播商品推荐',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.live.LivePlayActivity',
+          matches: '[id="com.ss.android.ugc.aweme:id/iv_close"]',
+          snapshotUrls: 'https://i.gkd.li/i/15722478',
+        },
+      ],
+    },
+    {
+      key: 7,
+      name: '通知-评论后',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
+          matches: '[id="com.ss.android.ugc.aweme:id/pv+"]',
+          snapshotUrls: 'https://i.gkd.li/i/15722558',
+        },
+      ],
+    },
+    {
+      key: 8,
+      name: '直播桌面图标',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.detail.ui.DetailActivity',
+          matches: '[id="com.ss.android.ugc.aweme:id/d8"]',
+          snapshotUrls: 'https://i.gkd.li/i/15722572',
         },
       ],
     },
