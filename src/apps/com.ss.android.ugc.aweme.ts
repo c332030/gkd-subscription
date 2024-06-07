@@ -9,7 +9,7 @@ export default defineGkdApp({
       name: '直播游戏推荐',
       rules: {
         matches:
-          '[id="com.ss.android.ugc.aweme:id/n_="] View[childCount > 2] View[childCount = 1] + View',
+          '[id="com.ss.android.ugc.aweme:id/oa5"] View[childCount > 2] View[childCount = 1] + View',
       },
     },
     {
