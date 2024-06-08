@@ -2,11 +2,11 @@ import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.tencent.mp',
-  name: 'APP_NAME',
+  name: '订阅号助手',
   groups: [
     {
       key: 0,
-      name: '订阅号助手',
+      name: '通知',
       rules: [
         {
           quickFind: true,
