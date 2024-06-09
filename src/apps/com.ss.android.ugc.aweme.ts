@@ -9,7 +9,6 @@ export default defineGkdApp({
       name: '直播游戏推荐',
       rules: [
         {
-          activityIds: 'com.ss.android.ugc.aweme.live.LivePlayActivity',
           matches:
             '[id="com.ss.android.ugc.aweme:id/oa5"] View[childCount>2] View[childCount=1] + View',
           snapshotUrls: 'https://i.gkd.li/i/15722431',
